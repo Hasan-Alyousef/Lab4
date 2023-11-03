@@ -10,8 +10,8 @@
 </head>
 
 
-<body>
-    <table width="60%">
+<body>  <form action="#" method="get" >
+    <table >
 
 
         <thead>
@@ -32,16 +32,17 @@
             </tr>
 
         </thead>
-        <form action="#" method="get" enctype="" novalidate autocomplete>
+      
             <tr>
 
                 <td><label class="required-field">First Name</label> </td>
-                <td><input type="text" required /></td>
-                <td><label>Lunch</label> </td>
+                <td><input type="text" required ></td>
+                <td ><label>Lunch</label> </td>
+                <td > </td>
             </tr>
-
+<tr>
             <td><label class="required-field">Last Name</label> </td>
-            <td><input type="text" required /></td>
+            <td><input type="text" required ></td>
 
             <td><label></label> Preference </td>
             <td> <select name="preference">
@@ -50,35 +51,36 @@
 
                 </select></td>
             </tr>
-            <td><label class="required-field">Company/<br />Inistitution</label> </td>
-            <td><input type="text" required /></td>
+            <tr>
+            <td><label class="required-field">Company/<br >Inistitution</label> </td>
+            <td><input type="text" required ></td>
 
             <td><label>Payment Type</label> </td>
             <td>
 
 
-                <input type="checkbox" name="Cash" /> Cash <br />
-                <input type="checkbox" name="Cheque" /> Cheque <br />
-                <input type="checkbox" name="Demand Draft" /> Demand Draft <br />
+                <input type="checkbox" name="Cash" > Cash <br>
+                <input type="checkbox" name="Cheque" > Cheque <br >
+                <input type="checkbox" name="Demand Draft" > Demand Draft <br >
 
             </td>
 
             </tr>
-            <td><label class="required-field">Address</label> </td>
+            <tr>
+                            <td><label class="required-field">Address</label> </td>
             <td><textarea cols="30" rows="10" required></textarea></td>
 
             <td>DD/ Cheque No.</td>
-            <td><input type="number" name="chequeNo" /></td>
+            <td><input type="number" name="chequeNo" ></td>
 
             </tr>
-
-            <td><label>City</label> </td>
-            <td><input type="text" required /></td>
+<tr>            <td><label>City</label> </td>
+            <td><input type="text" required ></td>
             <td>Drown on (Bank Name)</td>
-            <td><input type="text" name="bankName" /></td>
+            <td><input type="text" name="bankName" ></td>
 
             </tr>
-
+<tr>
             <td><label>State/Province/Region</label> </td>
             <td><select name="state">
                     <option>Iowa</option>
@@ -88,8 +90,9 @@
                 </select>
             </td>
             <td>Payable at</td>
-            <td><input type="text" name="payable" /></td>
+            <td><input type="text" name="payable" ></td>
             </tr>
+            <tr>
             <td> <label>Country</label></td>
             <td> <select name="country">
                     <option>USA</option>
@@ -98,17 +101,20 @@
                     <option>Lebanon</option>
                 </select>
             </td>
-            </tr>
+          
             <td><label class="required-field">Email</label> </td>
-            <td><input type="email" required /></td>
+            <td><input type="email" required ></td>
             </tr>
+            <tr>
             <td><label class="required-field">Phone Number</label></td>
-            <td> <input type="number" required /></td>
+            <td> <input type="number" required ></td>
+            <td></td>
+            <td></td>
             </tr>
             <tfoot>
                 <tr>
                     <td colspan="1"></td>
-                    <td colspan="2" align="center"><button>Submit</button>
+                    <td colspan="2"><button>Submit</button>
 
                         <button>Reset</button>
                     </td>
@@ -116,10 +122,10 @@
                 </tr>
 
             </tfoot>
-        </form>
+       
 
     </table>
-
+</form>
     <div>
  
         <a href=""  target="_blank"> <img src="images/htmlchecker.png" width="100" alt="HTML checker"  class="Validator"> </a>
